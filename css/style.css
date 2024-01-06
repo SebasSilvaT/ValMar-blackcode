@@ -202,6 +202,10 @@ h3{
 .box2 p{
     text-align: center;
 }
+/*3 Meses*/
+.tresMeses{
+    padding: 3rem 0;
+}
 
 /*Footer*/
 footer{
