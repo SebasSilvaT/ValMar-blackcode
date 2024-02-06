@@ -3,6 +3,7 @@ const mar = document.querySelector("#mar");
 const val = document.querySelector("#val");
 const dosMeses = document.querySelector("#dosMeses");
 const tresMeses = document.querySelector("#tresMeses");
+const cuatroMeses = document.querySelector("#cuatroMeses");
 
 /* Menu Portafolio */
 mar.addEventListener("click", (p) => {
@@ -33,5 +34,13 @@ tresMeses.addEventListener("click", (s) => {
     s.preventDefault();
 
     const sectionS = document.querySelector(".tresMeses");
+    sectionS.scrollIntoView({behavior: "smooth"});
+})
+
+/* Menu 4 Meses */
+cuatroMeses.addEventListener("click", (s) => {
+    s.preventDefault();
+
+    const sectionS = document.querySelector(".cuatroMeses");
     sectionS.scrollIntoView({behavior: "smooth"});
 })
