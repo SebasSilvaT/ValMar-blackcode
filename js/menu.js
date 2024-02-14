@@ -4,6 +4,7 @@ const val = document.querySelector("#val");
 const dosMeses = document.querySelector("#dosMeses");
 const tresMeses = document.querySelector("#tresMeses");
 const cuatroMeses = document.querySelector("#cuatroMeses");
+const video = document.querySelector("#video");
 
 /* Menu Portafolio */
 mar.addEventListener("click", (p) => {
@@ -42,5 +43,13 @@ cuatroMeses.addEventListener("click", (s) => {
     s.preventDefault();
 
     const sectionS = document.querySelector(".cuatroMeses");
+    sectionS.scrollIntoView({behavior: "smooth"});
+})
+
+/* SAN VALENTIN */
+video.addEventListener("click", (s) => {
+    s.preventDefault();
+
+    const sectionS = document.querySelector(".video");
     sectionS.scrollIntoView({behavior: "smooth"});
 })

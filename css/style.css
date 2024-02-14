@@ -12,7 +12,7 @@ header{
 }
 
 nav{
-    background: #cb1634;
+    background: #db8192;
     height: 80px;
     width: 100%;
 }
@@ -37,7 +37,7 @@ nav ul li a{
 }
 
 li a:hover{
-    background: #cb168f;
+    background: #f62c51;
     transition: 3s;
 }
 /* INICIO */
@@ -76,7 +76,7 @@ section.banner{
 
 h1{
     font-size: 2rem;
-    color: #cb1634;
+    color: #db8192;
 }
 
 #txtBanner{
@@ -87,7 +87,7 @@ h1{
 }
 
 .btnBenner{
-    background: #cb1634;
+    background: #db8192;
     color: #fff;
     padding: 10px 20px;
     border-radius: 25px;
@@ -101,7 +101,7 @@ h1{
 .subServices{
     text-align: center;
     padding-bottom: 2rem;
-    color: #cb1634;
+    color: #db8192;
 }
 
 .containerS{
@@ -123,7 +123,7 @@ h1{
     width: 30%;
 }
 h3{
-    color: #f62c51;
+    color: #db8192;
     margin: 10px 0;
 }
 .boxS p{
@@ -137,7 +137,7 @@ h3{
 .subportafolio{
     text-align: center;
     padding-bottom: 2rem;
-    color: #f62c51;
+    color: #db8192;
 }
 
 .containerP{
@@ -174,7 +174,7 @@ h3{
 .sub2Meses{
     text-align: center;
     padding-bottom: 2rem;
-    color: #cb1634;
+    color: #db8192;
 }
 
 .container2{
@@ -196,7 +196,7 @@ h3{
     width: 100%;
 }
 h3{
-    color: #f62c51;
+    color: #db8192;
     margin: 10px 0;
 }
 .box2 p{
