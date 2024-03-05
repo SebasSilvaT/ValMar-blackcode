@@ -5,6 +5,7 @@ const dosMeses = document.querySelector("#dosMeses");
 const tresMeses = document.querySelector("#tresMeses");
 const cuatroMeses = document.querySelector("#cuatroMeses");
 const video = document.querySelector("#video");
+const cincoMeses = document.querySelector("#cincoMeses");
 
 /* Menu Portafolio */
 mar.addEventListener("click", (p) => {
@@ -51,5 +52,13 @@ video.addEventListener("click", (s) => {
     s.preventDefault();
 
     const sectionS = document.querySelector(".video");
+    sectionS.scrollIntoView({behavior: "smooth"});
+})
+
+/* Menu 5 Meses */
+cincoMeses.addEventListener("click", (s) => {
+    s.preventDefault();
+
+    const sectionS = document.querySelector(".cincoMeses");
     sectionS.scrollIntoView({behavior: "smooth"});
 })
