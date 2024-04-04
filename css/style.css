@@ -207,6 +207,13 @@ h3{
     padding: 3rem 0;
 }
 
+.container3{
+    width: 40%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
 /*Footer*/
 footer{
     background-color: #bd465c;
