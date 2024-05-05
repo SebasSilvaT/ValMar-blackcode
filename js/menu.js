@@ -7,6 +7,7 @@ const cuatroMeses = document.querySelector("#cuatroMeses");
 const video = document.querySelector("#video");
 const cincoMeses = document.querySelector("#cincoMeses");
 const video2 = document.querySelector("#video2");
+const sieteMeses = document.querySelector("#sieteMeses");
 
 /* Menu Portafolio */
 mar.addEventListener("click", (p) => {
@@ -69,5 +70,13 @@ video2.addEventListener("click", (s) => {
     s.preventDefault();
 
     const sectionS = document.querySelector(".video2");
+    sectionS.scrollIntoView({behavior: "smooth"});
+})
+
+/* 7 meses */
+sieteMeses.addEventListener("click", (s) => {
+    s.preventDefault();
+
+    const sectionS = document.querySelector(".sieteMeses");
     sectionS.scrollIntoView({behavior: "smooth"});
 })
